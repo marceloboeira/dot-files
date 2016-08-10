@@ -14,7 +14,7 @@ function fish_prompt
   set -l green (set_color green)
   set -l normal (set_color normal)
 
-  set -l user_and_host $blue(whoami)@(hostname|cut -d . -f 1)
+  set -l user_and_host $blue(whoami)
   set -l short_path $green(basename (prompt_pwd))
   set -l end_symbol '∴'
 
@@ -23,18 +23,18 @@ function fish_prompt
     set -l git_branch (_git_branch_name)
 
     if [ (_git_is_dirty) ]
-      set git_info $yellow "[$git_branch±]"
+      set git_info $yellow "($git_branch±)"
     else
-      set git_info $normal "[$git_branch]"
+      set git_info $normal "($git_branch)"
     end
   end
 
   # show ruby version
   set -l ruby_info
   if which rbenv >/dev/null ^&1
-    set ruby_info $red '['(rbenv version-name)']'
+    set ruby_info $red'['(rbenv version-name)']'
   end
 
   # Terminate with a nice prompt char
-  echo "$user_and_host $short_path$ruby_info$git_info $end_symbol" $normal
+  echo "$ruby_info $short_path$git_info $end_symbol" $normal
 end
