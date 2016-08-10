@@ -18,6 +18,10 @@ cask 'dropbox'
 cask 'firefox'
 cask 'iterm2'
 cask 'java'
+cask 'franz'
+cask 'flux'
+cask 'google-photos-backup'
+cask 'dash'
 cask 'skype'
 cask 'spotify'
 cask 'the-unarchiver'
@@ -26,6 +30,7 @@ cask 'vlc'
 
 # Install fonts
 cask 'font-sauce-code-powerline'
+cask 'font-iosevka'
 
 # Install command line tools
 brew 'ack'
