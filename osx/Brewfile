@@ -13,7 +13,6 @@ tap 'juanibiapina/zas'
 # Install Apps
 cask_args appdir: '/Applications'
 cask '1password3'
-cask 'adium'
 cask 'appcleaner'
 cask 'dropbox'
 cask 'firefox'
@@ -62,6 +61,7 @@ brew 'zsh'
 brew 'zsh-autosuggestions'
 brew 'zsh-history-substring-search'
 brew 'zsh-syntax-highlighting'
+brew 'crystal-lang'
 
 # Install neovim
 tap 'neovim/neovim'
