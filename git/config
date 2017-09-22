@@ -2,6 +2,10 @@
 [include]
   path = user
 
+[user]
+  name = Marcelo Boeira
+  email = me@marceloboeira.com
+
 [include]
   path = github
 
@@ -48,24 +52,29 @@
 
 [alias]
   a = add
+  ap = add -p
   aa = add --all
   alias = !git config --list | grep 'alias\\.' | sed 's/alias\\.\\([^=]*\\)=\\(.*\\)/\\1\\\t=> \\2/' | sort
   l = log
   lg = log --graph --pretty=format:'%C(yellow)%h %Cblue%aN %Cgreen%ar %Creset%s%Cred%d%Creset'
   ls = log --stat
   last = log -1 HEAD
-  w = log --name-status #short whatchanged
-  s = show
+  w = log --name-status
+  s = status
+  sw = show
   d = diff
   ds = diff --staged
-  st = status
+  ds = diff --cached
   ss = status -s
   co = checkout
-  cf = "!git ss | grep '^U.\\|^.U' --color"
+  cf = "!git show | grep '^U.\\|^.U' --color"
   ccf = "!git cf | wc -l"
   br = branch
-  px = push
   pl = pull
+  plr = pull --rebase
+  ps = push
+  pso = push origin
+  psom = push origin master
   r = remote
   unstage = reset HEAD --
   this = !git init && git add . && git commit -m \"Initial commit.\"
@@ -88,3 +97,5 @@
 
 [tag]
   sort = version:refname
+[credential]
+  helper = osxkeychain
