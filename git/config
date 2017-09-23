@@ -64,7 +64,7 @@
   sw = show
   d = diff
   ds = diff --staged
-  ds = diff --cached
+  dc = diff --cached
   ss = status -s
   co = checkout
   cf = "!git show | grep '^U.\\|^.U' --color"
