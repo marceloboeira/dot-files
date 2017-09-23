@@ -14,7 +14,7 @@ alias lcd='dirs -v'
 
 # cleanconfig
 alias clean_config="sed -e '/^#/ d' -e '/^ *$/ d'"
-
+alias cl=clear
 # copy
 alias cp='cp -v'
 
@@ -23,6 +23,8 @@ alias f=foreman
 
 # git
 alias g=git
+alias gs='git s'
+alias gp='git plr'
 
 # grep
 alias rg='grep -r'
