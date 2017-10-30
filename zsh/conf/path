@@ -1,4 +1,9 @@
 # vim: ft=zsh
 
 # Base path
+export JAVA_HOME="$(/usr/libexec/java_home -v 1.8)"
 export PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+export PATH="$(python3 -m site --user-base)/bin:${PATH}"
+export PATH=/usr/local/anaconda3/bin:"$PATH"
+export GOPATH=$HOME/go
+export PATH="$GOPATH"/bin:"$PATH"
