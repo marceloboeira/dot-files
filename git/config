@@ -69,6 +69,7 @@
   co = checkout
   cf = "!git show | grep '^U.\\|^.U' --color"
   ccf = "!git cf | wc -l"
+  b = branch
   br = branch
   pl = pull
   plr = pull --rebase
