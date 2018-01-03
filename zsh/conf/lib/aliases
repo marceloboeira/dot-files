@@ -81,3 +81,13 @@ alias vim=nvim
 alias vi=vim
 alias v=vim
 alias n=nvim
+
+# alias for kubernetes
+alias k8=kubectl
+alias k=kubectl
+
+# alias for awsudo
+alias asa=awsudo
+
+# alias for make
+alias m=make
