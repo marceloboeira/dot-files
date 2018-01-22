@@ -72,8 +72,8 @@ alias n=nvim
 # alias for kubernetes
 alias k8=kubectl
 alias k=kubectl
-alias ks='kubectl config use-context staging-context;kubectl'
-alias kp='kubectl config use-context production-context;kubectl'
+alias ks='kubectl --context staging-context'
+alias kp='kubectl --context production-context'
 
 # alias for awsudo
 alias asa=awsudo
