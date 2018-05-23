@@ -9,6 +9,8 @@ export EDITOR=nvim
 # Enable emacs keys
 bindkey -e
 
+bindkey "^B" beginning-of-line
+
 # Disable flow control
 stty -ixon
 
