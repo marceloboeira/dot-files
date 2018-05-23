@@ -5,6 +5,7 @@
 [user]
   name = Marcelo Boeira
   email = me@marceloboeira.com
+  signingkey = A7297D5902C0B78B5140939F907D2412840AA91B
 
 [include]
   path = github
