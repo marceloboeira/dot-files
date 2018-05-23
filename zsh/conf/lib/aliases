@@ -84,3 +84,6 @@ alias awsp='confirm-before awsudo -u production'
 # alias for make
 alias m=make
 alias build='make build'
+
+# alias for dns
+alias dns-flush='sudo killall -HUP mDNSResponder;sudo killall mDNSResponderHelper;sudo dscacheutil -flushcache'
