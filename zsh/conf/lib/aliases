@@ -74,8 +74,10 @@ alias k8=kubectl
 alias k=kubectl
 alias ks='kubectl --context staging-context'
 alias kp='confirm-before kubectl --context production-context'
+alias ko='confirm-before kubectl --context operations-context'
 alias kls='kail --context staging-context'
 alias klp='kail --context production-context'
+alias klo='kail --context operations-context'
 
 # alias for awsudo
 alias asa=awsudo
