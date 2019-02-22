@@ -73,8 +73,9 @@ alias n=nvim
 alias k8=kubectl
 alias k=kubectl
 alias ks='kubectl --context staging-context'
-alias kp='confirm-before kubectl --context production-context'
-alias ko='confirm-before kubectl --context operations-context'
+alias kp='kubectl --context production-context'
+alias ko='kubectl --context operations-context'
+alias km='kubectl --context minikube'
 alias kls='kail --context staging-context'
 alias klp='kail --context production-context'
 alias klo='kail --context operations-context'
@@ -82,8 +83,8 @@ alias klo='kail --context operations-context'
 # alias for awsudo
 alias asa=awsudo
 alias awss='awsudo -u staging'
-alias awso='confirm-before awsudo -u operations'
-alias awsp='confirm-before awsudo -u production'
+alias awso='awsudo -u operations'
+alias awsp='awsudo -u production'
 
 # alias for make
 alias m=make
