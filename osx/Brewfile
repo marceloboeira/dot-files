@@ -81,7 +81,7 @@ cask 'spectacle'
 cask 'google-photos-backup'
 cask 'dash'
 cask 'pomodone'
-cask 'karabiner'
+cask 'karabiner-elements'
 
 # Install fonts
 cask 'font-sauce-code-powerline'
