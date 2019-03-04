@@ -51,6 +51,7 @@ brew 'zsh-history-substring-search'
 brew 'zsh-syntax-highlighting'
 brew 'gpg2'
 brew 'stack'
+brew 'docker-compose'
 
 # Install neovim
 tap 'neovim/neovim'
