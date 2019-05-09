@@ -52,6 +52,11 @@ brew 'zsh-syntax-highlighting'
 brew 'gpg2'
 brew 'stack'
 brew 'docker-compose'
+brew 'parallel'
+
+# Install awsudo
+tap 'marceloboeira/brew'
+brew 'marceloboeira/awsudo'
 
 # Install neovim
 tap 'neovim/neovim'
