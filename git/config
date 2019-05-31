@@ -73,7 +73,7 @@
   b = branch
   br = branch
   pl = pull
-  plr = pull --rebase
+  plr = pull --rebase --autostash
   ps = push
   pso = push origin
   psom = push origin master
