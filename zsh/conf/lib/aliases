@@ -92,3 +92,6 @@ alias build='make build'
 
 # alias for dns
 alias dns-flush='sudo killall -HUP mDNSResponder;sudo killall mDNSResponderHelper;sudo dscacheutil -flushcache'
+
+# alias for bundler
+alias be='bundle exec'
