@@ -107,10 +107,10 @@
   helper = osxkeychain
 
 [commit]
-  gpgsign = true
+ # gpgsign = true
 
 [gpg]
-  program = /usr/local/bin/gpg
+ # program = /usr/local/bin/gpg
 [filter "lfs"]
   smudge = git-lfs smudge -- %f
   process = git-lfs filter-process

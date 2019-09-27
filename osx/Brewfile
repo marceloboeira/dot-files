@@ -53,6 +53,7 @@ brew 'gpg2'
 brew 'stack'
 brew 'docker-compose'
 brew 'parallel'
+brew 'thefuck'
 
 # Install awsudo
 tap 'marceloboeira/brew'

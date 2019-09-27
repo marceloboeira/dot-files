@@ -1,5 +1,7 @@
 # vim: ft=zsh
 
+eval "$(rbenv init -)"
+
 if [ -d "$HOME/.rbenv" ]; then
   export PATH="$HOME/.rbenv/bin:$PATH"
   export RBENV_INIT_CACHEFILE="$ZSH_HOME/conf/plugins/.rbenv_init_cache"
