@@ -10,7 +10,7 @@ tap 'caskroom/versions'
 tap 'caskroom/fonts'
 
 # Install universal ctags (a ctags fork that is being maintained)
-tap 'universal-ctags/universal-ctags'
+# tap 'universal-ctags/universal-ctags'
 
 # Install command line tools
 brew 'ack'
@@ -54,10 +54,7 @@ brew 'stack'
 brew 'docker-compose'
 brew 'parallel'
 brew 'thefuck'
-
-# Install awsudo
-tap 'marceloboeira/brew'
-brew 'marceloboeira/awsudo'
+brew 'tfenv'
 
 # Install neovim
 tap 'neovim/neovim'
@@ -65,18 +62,14 @@ brew 'neovim'
 
 # Install Apps
 cask 'appcleaner'
-cask 'brave'
-cask 'charles'
 cask 'docker'
 cask 'firefox'
-cask 'firefoxdeveloperedition'
 cask 'google-chrome'
 cask 'google-hangouts'
 cask 'harvest'
-cask 'iterm2-beta'
+cask 'iterm2'
 cask 'java'
 cask 'messenger'
-cask 'owasp-zap'
 cask 'skype'
 cask 'slack'
 cask 'spotify'
@@ -85,11 +78,11 @@ cask 'transmission'
 cask 'vlc'
 
 cask 'spectacle'
-cask 'google-photos-backup'
 cask 'dash'
 cask 'pomodone'
 cask 'karabiner-elements'
 
 # Install fonts
+tap 'homebrew/cask-fonts'
 cask 'font-sauce-code-powerline'
-cask 'font-iosevka'
+cask 'font-iosevka-nerd-font'
