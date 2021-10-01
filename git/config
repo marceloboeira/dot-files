@@ -5,7 +5,7 @@
 [user]
   name = Marcelo Boeira
   email = me@marceloboeira.com
-  signingkey = A7297D5902C0B78B5140939F907D2412840AA91B
+  signingkey = 979CD1F2F06E6B92
 
 [include]
   path = github
@@ -86,10 +86,10 @@
   shame = "!s() { git blame $1 -p | grep 'author ' | cut -d' ' -f2-10 | sort | uniq -c | sort | tail -n1 | cut -c6-30 ; }; s"
   shout = "!s() { git shame $1 | say; }; s"
   ranking = shortlog -s -n
-  c  = commit
-  cm = commit
-  cma = commit --amend
-  cman = commit --amend --no-edit
+  c  = commit -S
+  cm = commit -S
+  cma = commit -S --amend
+  cman = commit -S --amend --no-edit
 
 [push]
   default = simple

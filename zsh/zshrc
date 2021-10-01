@@ -5,3 +5,4 @@ zmodload zsh/zprof
 export ZSH_HOME="$HOME/.dots/zsh"
 export SHELL="$(which zsh)"
 source $ZSH_HOME/init.zsh
+export GPG_TTY=$(tty)
