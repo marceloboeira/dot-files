@@ -29,6 +29,8 @@ brew 'gpg2'
 cask 'docker'
 brew 'docker-compose'
 cask 'java'
+brew 'jq'
+brew 'yq'
 
 # Shell
 tap 'universal-ctags/universal-ctags'

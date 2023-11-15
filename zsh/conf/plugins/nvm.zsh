@@ -1,7 +1,7 @@
 # vim: ft=zsh
 
 export NVM_DIR="$HOME/.nvm"
-. "/usr/local/opt/nvm/nvm.sh"
+. "/opt/homebrew/opt/nvm/nvm.sh"
 
 nvm_activate() {
   source "$BREW_PREFIX/opt/nvm/nvm.sh" --no-use

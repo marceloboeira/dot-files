@@ -1,5 +1,8 @@
 # vim: ft=zsh
 
+export NVM_DIR="$HOME/.nvm"
+[ -s "/opt/homebrew/opt/nvm/nvm.sh" ] && \. "/opt/homebrew/opt/nvm/nvm.sh"  # This loads nvm
+
 # Base path
 # export JAVA_HOME="$(/usr/libexec/java_home -v 1.8)"
 export PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin

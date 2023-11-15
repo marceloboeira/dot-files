@@ -2,7 +2,7 @@
 [user]
   name = Marcelo Boeira
   email = mboeira@seatgeek.com
-  sign = 925D652BD1D4311F80742B2DB0D0F420B4CF94C3
+  signingkey = 925D652BD1D4311F80742B2DB0D0F420B4CF94C3
 
 [include]
   path = github
