@@ -95,3 +95,7 @@ alias dns-flush='sudo killall -HUP mDNSResponder;sudo killall mDNSResponderHelpe
 
 # alias for bundler
 alias be='bundle exec'
+
+# alias for git profile
+alias gitb='~/.dots/git/switch business'
+alias gitp='~/.dots/git/switch personal'

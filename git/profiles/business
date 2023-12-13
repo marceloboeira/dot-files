@@ -1,6 +1,7 @@
 # vim: ft=gitconfig
 [user]
   name = Marcelo Boeira
+  profile = business
   email = mboeira@seatgeek.com
   signingkey = 925D652BD1D4311F80742B2DB0D0F420B4CF94C3
 

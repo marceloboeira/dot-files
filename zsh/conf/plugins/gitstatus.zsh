@@ -64,10 +64,14 @@ git_status() {
   fi
 }
 
+git_profile() {
+  git config --get user.profile
+}
+
 # If inside a Git repository, print its branch and state
 git_prompt_string() {
   local _GIT_BRANCH="$(git_branch)"
   if [ -n "$_GIT_BRANCH" ]; then
-    echo "$_GIT_PROMPT_SYMBOL$_GIT_PROMPT_PREFIX$_GIT_BRANCH$_GIT_PROMPT_SUFFIX$(git_status)"
+    echo "$_GIT_PROMPT_SYMBOL$_GIT_PROMPT_PREFIX$_GIT_BRANCH|$(git_profile)$_GIT_PROMPT_SUFFIX$(git_status)"
   fi
 }

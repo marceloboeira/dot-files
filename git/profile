@@ -1,0 +1,3 @@
+#!/bin/bash
+
+echo -n "$(git config --get user.profile)"
