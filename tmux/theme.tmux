@@ -2,15 +2,16 @@
 
 #### COLOUR (Solarized dark)
 # default statusbar colors
-set-option -g status-bg colour00  # base02 (Solarized dark background)
-set-option -g status-fg colour254  # base0 (white)
+set-option -g status-bg black
+
+set-option -g status-fg 
 set-option -g status-style bg=colour234,fg=colour254
 
 # default window title colors
 set-window-option -g window-status-style fg=colour00,bg=colour254
 
 # active window title colors
-set-window-option -g window-status-current-style fg=colour254,bg=colour33,bold  # blue
+set-window-option -g window-status-current-style fg=colour254,bg=colour33,bold
 
 # window with activity colors
 set-window-option -g window-status-activity-style fg=colour254,bg=colour33
