@@ -1,7 +1,11 @@
 # vim: ft=zsh
 
 export NVM_DIR="$HOME/.nvm"
-. "/opt/homebrew/opt/nvm/nvm.sh"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
+
+if [ -f .nvmrc ]; then
+  nvm use --silent
+fi
 
 nvm_activate() {
   source "$BREW_PREFIX/opt/nvm/nvm.sh" --no-use

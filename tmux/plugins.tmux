@@ -7,6 +7,9 @@ set -g @plugin 'tmux-plugins/tmux-pain-control'
 set -g @plugin 'tmux-plugins/tmux-resurrect'
 set -g @plugin 'tmux-plugins/tmux-continuum'
 set -g @plugin 'tmux-plugins/vim-tmux-focus-events'
+set -g @plugin 'seebi/tmux-colors-solarized'
+
+set -g @colors-solarized 'dark'
 
 # restore sessions when tmux server starts
 set -g @continuum-restore 'on'

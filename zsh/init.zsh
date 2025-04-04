@@ -1,4 +1,4 @@
-# vim: ft=zsh
+# vim: ft=zshA
 
 # Configure PATH
 source $ZSH_HOME/conf/path
