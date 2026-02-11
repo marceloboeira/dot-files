@@ -49,6 +49,8 @@ cd osx/
 
 ### Zsh
 
+Default config forces terminal locale to English (`LANG`/`LC_ALL=en_US.UTF-8`) so CLI messages stay in English even when the system region is e.g. Germany. Override in `zsh/conf/defaults` if needed.
+
 To setup zsh shell after it is installed run the following:
 
 ```sh

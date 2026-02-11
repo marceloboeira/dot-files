@@ -1,94 +1,75 @@
-# Add versions
-tap 'homebrew/versions'
-
-# Add services
+# Taps
 tap 'homebrew/services'
+tap 'universal-ctags/universal-ctags'
+tap 'neovim/neovim'
 
-# Install cask with versions and fonts
-tap 'caskroom/cask'
-tap 'caskroom/versions'
+# --- COMMAND LINE TOOLS (Formulas) ---
 
-# Install universal ctags (a ctags fork that is being maintained)
-
+# Utilities
 brew 'ack'
 brew 'awscli'
 brew 'coreutils'
 brew 'diff-so-fancy'
-
-# Coding
-brew 'node'
-brew 'nvm'
-brew 'git'
-brew 'tfenv'
-brew 'ruby-build'
-brew 'python3'
-brew 'rbenv'
-brew 'yarn'
-brew 'stack'
+brew 'wget'
+brew 'htop'
+brew 'httpie'
+brew 'hub'
 brew 'gpg2'
-cask 'docker'
-brew 'docker-compose'
-cask 'java'
 brew 'jq'
 brew 'yq'
+brew 'tree'
+brew 'ripgrep'
+brew 'rlwrap'
+brew 'readline'
+brew 'parallel'
+brew 'openssl'
+brew 'shellcheck'
+brew 'reattach-to-user-namespace'
 
-# Shell
-tap 'universal-ctags/universal-ctags'
-cask 'iterm2'
-brew 'universal-ctags'
+# Coding & Languages
+brew 'git'
+brew 'node'
+brew 'nvm'
+brew 'yarn'
+brew 'python3'
+brew 'rbenv'
+brew 'ruby-build'
+brew 'tfenv'
+brew 'stack'      # Haskell Stack
+brew 'neovim'
+brew 'editorconfig'
+
+# Shell & Terminal
 brew 'zsh'
 brew 'zsh-autosuggestions'
 brew 'zsh-completions'
 brew 'zsh-history-substring-search'
 brew 'zsh-syntax-highlighting'
 brew 'fzf'
-brew 'tree'
 brew 'tmux'
-brew 'ripgrep'
-brew 'rlwrap'
-brew 'readline'
-brew 'reattach-to-user-namespace'
-brew 'parallel'
-brew 'imagemagick'
-brew 'openssl'
-brew 'shellcheck'
+brew 'universal-ctags'
 
-# CLIs
-brew 'wget'
-brew 'htop'
-brew 'httpie'
-brew 'hub'
+# Terminals & Editors
+cask 'iterm2'
 
-# Install neovim
-tap 'neovim/neovim'
-brew 'neovim'
-brew 'editorconfig'
+# Development
+cask 'docker'
+cask 'java'
 
-# Install Apps
+# Browsers & Social
 cask 'firefox'
-cask 'google-chrome'
-cask 'the-unarchiver'
-cask 'transmission'
-cask 'vlc'
-
-# Social
-cask 'skype'
 cask 'slack'
-cask 'google-hangouts'
 cask 'zoom'
-cask 'pomodone'
-cask 'spotify'
-cask 'steam'
 
-# System
-cask 'spectacle'
+# System Tools
+cask 'the-unarchiver'
 cask 'karabiner-elements'
-
-# GPU
 cask 'gswitch'
 cask 'macs-fan-control'
 
-# Install fonts
-tap 'homebrew/cask-fonts'
-cask 'font-sauce-code-powerline'
+# Fonts
 cask 'font-iosevka-nerd-font'
+
+# AI Stuff
+cask 'cursor'
+cask 'opencode'
